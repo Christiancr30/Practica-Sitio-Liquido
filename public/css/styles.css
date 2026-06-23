@@ -33,9 +33,10 @@ p {
 }
 
 .container {
-  width: 1000px;
+  max-width: 1000px;
+  width: 100%;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 20px;
 }
 
 .linea-divisora {
@@ -94,6 +95,7 @@ span {
 .Car2 img {
   float: right;
   margin-left: 10px;
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */

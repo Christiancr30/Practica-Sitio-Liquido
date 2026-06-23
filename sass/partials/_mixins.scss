@@ -35,9 +35,10 @@
 }
 
 @mixin estilos-container {
-    width: $ancho-container;
+    max-width: $ancho-container;
+    width: 100%;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 20px;
 }
 
 @mixin estilos-linea {
