@@ -1,0 +1,66 @@
+@use "variables" as *;
+
+@mixin estilos-body {
+    font-family: $fuente-principal;
+    background-color: $blanco;
+}
+
+@mixin estilos-h1 {
+    font-size: 32px;
+    color: $gris;
+}
+
+@mixin estilos-h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: $rojo;
+}
+
+@mixin estilos-loremh3 {
+    font-weight: bold;
+    color: $rojo;
+}
+
+@mixin estilos-subtitle {
+    font-size: 15px;
+    font-weight: bold;
+    color: $gris;
+}
+
+@mixin estilos-p {
+    font-size: 13px;
+    color: $gris-texto;
+    line-height: 1.5;
+    margin: 0;
+}
+
+@mixin estilos-container {
+    width: $ancho-container;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+@mixin estilos-linea {
+    border: 0;
+    height: 15px;
+    width: 100%;
+    background-color: $gris-claro;
+}
+
+@mixin estilos-car {
+    display: inline-block;
+    vertical-align: top;
+    width: 42%;
+    margin: 5px;
+    padding: 25px;
+    border: 1px solid $gris-borde;
+    background-color: $gris-fondo;
+    text-align: left;
+    min-height: 330px;
+}
+
+@mixin estilos-span {
+    color: $rojo;
+    cursor: pointer;
+    font-weight: bold;
+}

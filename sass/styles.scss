@@ -1,0 +1,75 @@
+@use "partials/mixins" as *;
+@use "partials/variables" as *;
+
+body {
+    @include estilos-body;
+}
+
+h1 {
+    @include estilos-h1;
+}
+
+h2 {
+    @include estilos-h2;
+}
+
+.LoremH3-header {
+    @include estilos-loremh3;
+}
+
+.subtitle {
+    @include estilos-subtitle;
+}
+
+p {
+    @include estilos-p;
+}
+
+.container {
+    @include estilos-container;
+}
+
+.linea-divisora {
+    @include estilos-linea;
+}
+
+.Car1,
+.Car2 {
+    @include estilos-car;
+}
+
+span {
+    @include estilos-span;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#header {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#nav {
+    text-align: center;
+}
+
+#nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #585858;
+}
+
+.LoremH2-header {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.Car1 img,
+.Car2 img {
+    float: right;
+    margin-left: 10px;
+}

@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FFFFFF;
+}
+
+h1 {
+  font-size: 32px;
+  color: #585858;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #AA1535;
+}
+
+.LoremH3-header {
+  font-weight: bold;
+  color: #AA1535;
+}
+
+.subtitle {
+  font-size: 15px;
+  font-weight: bold;
+  color: #585858;
+}
+
+p {
+  font-size: 13px;
+  color: #7F8C8D;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.linea-divisora {
+  border: 0;
+  height: 15px;
+  width: 100%;
+  background-color: #E8E8E8;
+}
+
+.Car1,
+.Car2 {
+  display: inline-block;
+  vertical-align: top;
+  width: 42%;
+  margin: 5px;
+  padding: 25px;
+  border: 1px solid #DDDDDD;
+  background-color: #F4F4F4;
+  text-align: left;
+  min-height: 330px;
+}
+
+span {
+  color: #AA1535;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#header {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+#nav {
+  text-align: center;
+}
+
+#nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #585858;
+}
+
+.LoremH2-header {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.Car1 img,
+.Car2 img {
+  float: right;
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */
